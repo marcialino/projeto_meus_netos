@@ -29,6 +29,7 @@
     section{
         background-color:rgba(247,242,247,0.996); 
         width: 1300px;
+        height: fit-content;
         margin: auto;
 
     }
