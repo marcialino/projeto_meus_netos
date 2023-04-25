@@ -23,13 +23,14 @@
         }
         nav > a:hover{
             text-decoration: underline;
-            color: black;
+            color: ;
         }
 
-      
-        main{
-            background-color: rgba(247,242,247,0.996);
-        }
+    section{
+        background-color:rgba(247,242,247,0.996); 
+        width: 1600px;
+
+    }
         #text1{
             color: white;
             background-color: #2f2e2e;
