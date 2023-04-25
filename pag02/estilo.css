@@ -57,7 +57,7 @@ body{
 
         #foto1{
             background-color: #624763;
-            width:600px;
+            width:550px;
             height: 330px ;
             padding: 10px 20px;
             position: absolute;
@@ -94,6 +94,7 @@ body{
         }
         
         .gallery{
+            width: 1260px;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-template-rows: repeat(8, 5vw);
