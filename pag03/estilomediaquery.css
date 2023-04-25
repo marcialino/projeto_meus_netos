@@ -3,20 +3,20 @@
 /*Celular*/
 
 @media screen and (min-width: 300px) and (max-width:480px){
-    main{
+    section{
         width: 80vw;
     }
 }
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width:992px){
-    main{
+    section{
         width:80vw
     }
     
 }
 /*PC*/
 @media screen and(min-width:992px) {
-    main{
+    section{
         width:80vw
         
     }
