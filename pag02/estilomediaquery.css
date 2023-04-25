@@ -6,7 +6,11 @@
     section{
         width: 37vw;
     }
+    grid-template-columns{
+        width: 40vw;
+    }
 }
+
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width:992px){
     section{
