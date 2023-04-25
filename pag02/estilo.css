@@ -99,11 +99,11 @@ body{
             display: grid;
             gap: 10px;
 
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
 
         .gallery-img{
-            width: 100%;
+            width: 250px;
             height: fit-content;
             padding-left: 30px;
             object-fit: cover;
