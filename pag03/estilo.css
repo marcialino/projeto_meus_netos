@@ -33,7 +33,12 @@
         margin: auto;
 
     }
-       #text1{
+    h2{
+        text-align: center;
+        font-size: 25pt;
+        padding: 15px;
+    }
+       /*#text1{
             color: white;
             background-color: #2f2e2e;
             width: 900px;
@@ -47,16 +52,15 @@
             text-align: left;
             font-size: 20pt;
             
-        }
+        }*/
 
         #foto1{
-            background-color: #624763;
-            width:400px;
+            border: 10px solid #624763;
+            width:600px;
             height: 300px ;
-            padding: 10px 20px;
-            position: absolute;
-            margin-left: -500px;
-            margin-top: -100px;
+            margin-left: 300px;
+            margin-top: 20px;
+            margin-bottom: 30px;
             
             
 
