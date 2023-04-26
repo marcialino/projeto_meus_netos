@@ -28,8 +28,8 @@
 
     section{
         background-color:rgba(247,242,247,0.996); 
-        width: 1000px;
-        height: 500px;
+        width: 800px;
+        height: auto;
         margin: auto;
 
     }
@@ -103,18 +103,19 @@
         .gallery{
             width: 100%;
             padding: 15px;
-            margin-left: 180px;
-        
+            margin-left: 50px;
             box-sizing: border-box;
             display: grid;
             gap: 10px;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
         }
 
         .gallery-img{
-            width: 300px;
+            width: 610px;
             height: fit-content;
-            padding-left: 50px;
+            padding-left: 30px;
+            margin-top: -40px;
+            margin-bottom: 20px;
             object-fit: cover;
             
         }
