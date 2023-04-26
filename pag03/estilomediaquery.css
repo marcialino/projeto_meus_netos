@@ -7,7 +7,7 @@
         width: 450px;
     }
     .gallery{
-        width: 450px;
+        grid-template-columns: 1fr;
 
     }
     .gallery-img{
