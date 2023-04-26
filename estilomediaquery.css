@@ -19,6 +19,14 @@
     section{
         width:80vw
     }
+
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .gallery-img{
+        width: 300px;
+    }
     
 }
 /*PC*/
