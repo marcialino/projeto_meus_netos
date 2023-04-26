@@ -1,34 +1,19 @@
 @charset "UTF-8";
-
-body{
+    body{
     background-color: #b5a798;
-    
     }
-    section{
-        background-color:rgba(247,242,247,0.996); 
-        width: 1270px;
-        margin: auto;
-        margin-top: 20px;
-        
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
 
-    }
-
-    header{
-       background-color: aliceblue;
-       padding: 10px;
-       margin: auto;
-       margin-bottom: 20px;
-       width: 1280px;
-       
-    }
-
-    nav{
-        margin: auto;
-        background-color: #b8b6b6;
-        padding: 3px;
-        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0, 0.464);
-    }
-    nav > a{ 
+        nav{
+            background-color: #b8b6b6;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0, 0.464);
+        }
+        nav > a{ 
             text-decoration: none;
             font-family: Arial, Helvetica, sans-serif;
             color: white;
@@ -40,29 +25,43 @@ body{
             text-decoration: underline;
             color: black;
         }
-      
-        #text1{
+
+    section{
+        background-color:rgba(247,242,247,0.996); 
+        width: 1300px;
+        height: auto;
+        margin: auto;
+
+    }
+    h2{
+        text-align: center;
+        font-size: 25pt;
+        padding: 15px;
+    }
+       /*#text1{
             color: white;
             background-color: #2f2e2e;
-            width: 600px;
+            width: 900px;
             height: 400px;
             border: 10px solid darkgrey;
             padding: 20px 20px;
-            margin: 20px 40px;
+            margin-left: 180px;
+            margin-top: 30px;
+            margin-bottom: 40px;
             position: relative;
             text-align: left;
             font-size: 20pt;
             
-        }
+        }*/
 
         #foto1{
-            background-color: #624763;
-            width:550px;
-            height: 330px ;
-            padding: 10px 20px;
-            position: absolute;
-            margin-left: -200px;
-            margin-top: -100px;
+            border: 10px solid #624763;
+            width:600px;
+            height: 300px ;
+            margin-left: 300px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            
             
 
         }
@@ -92,21 +91,31 @@ body{
             text-decoration: none;
             font-weight: bold;
         }
+
+        #olivia{
+            color: black;
+            padding: 15px;
+            margin-left: 18px;
+            font-size: 12pt;
+            text-decoration: none;
+            font-weight: bold;
+        }
         .gallery{
             width: 100%;
             padding: 5px;
             box-sizing: border-box;
             display: grid;
             gap: 10px;
-
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
 
         .gallery-img{
-            width: 250px;
+            width: 300px;
             height: fit-content;
-            padding-left: 30px;
+            padding-left: 50px;
             object-fit: cover;
+            
         }
+
 
      
