@@ -103,12 +103,12 @@
         .gallery{
             width: 100%;
             padding: 15px;
-            margin-left: 200px;
-            margin-top: -40px;
+            margin-left: 180px;
+        
             box-sizing: border-box;
             display: grid;
             gap: 10px;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
         }
 
         .gallery-img{
