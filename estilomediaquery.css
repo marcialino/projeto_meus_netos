@@ -4,20 +4,20 @@
 
 @media screen and (min-width: 300px) and (max-width:480px){
     section{
-        width: 80vw;
+        width: 470px;
     }
     .gallery{
         grid-template-columns: 1fr;
 
     }
     .gallery-img{
-        width: 80vw;
+        width: 450px;
     }
 }
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width:992px){
     section{
-        width:80vw
+        width:80vw;
     }
 
     .gallery{
@@ -25,7 +25,7 @@
 
     }
     .gallery-img{
-        width: 300px;
+        width: 80vw;
     }
     
 }
