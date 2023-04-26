@@ -29,7 +29,7 @@
 
     section{
         background-color:rgba(247,242,247,0.996); 
-        width:1300px;
+        width:800px;
         height: auto;
         margin: auto;
 
@@ -55,17 +55,14 @@
             
         }*/
 
-        #foto1{
+       /* #foto1{
             border: 10px solid #624763;
             width:600px;
             height: 300px ;
             margin-left: 300px;
             margin-top: 0px;
             margin-bottom: 30px;
-            
-            
-
-        }
+        }*/
         div.quadrado{
             display: inline-block;
 
@@ -130,10 +127,11 @@
         }
 
         .gallery-img{
-            width: 600px;
+            width: 700px;
             height: fit-content;
             padding-left: 50px;
             object-fit: cover;
+            margin-bottom:20px;
             
         }
 
