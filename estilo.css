@@ -127,7 +127,7 @@
         }
 
         .gallery-img{
-            width: 700px;
+            width: 500px;
             height: fit-content;
             padding-left: 50px;
             object-fit: cover;
